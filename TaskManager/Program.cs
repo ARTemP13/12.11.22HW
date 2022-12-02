@@ -11,6 +11,8 @@ namespace TaskManager
     {
         static void Main(string[] args)
         {
+            // все гуд 
+            Console.ReadKey();
             Employees employees1 = new Employees("Ильшат", StatusEmployees.TeamLeader);
             Employees employees2 = new Employees("Владимир", StatusEmployees.Developer);
             Employees employees3 = new Employees("Дмитрий", StatusEmployees.Developer);
